@@ -1,0 +1,101 @@
+.main-nav {
+    margin: 5em 0 0 0;
+}
+@media screen and (max-width: 768px) {
+    .main-nav {
+      margin: 0;
+    }
+}
+.main-nav .top-menu {
+padding: 34px 30px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .main-nav .top-menu {
+    padding: 15px 1em;
+  }
+}
+.main-nav #main-logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.main-nav #main-logo a:hover {
+    color: #000;
+}
+.main-nav a {
+    padding: 5px 10px;
+    color: #000;
+    text-decoration: none;
+}
+/* Dud for hamburger-menu */
+/* @media screen and (max-width: 768px) {
+    .main-nav .menu-1 {
+      display: none;
+    }
+} */
+.main-nav ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+.main-nav ul li {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.main-nav ul li a {
+    position: relative;
+    font-size: 13px;
+    padding: 30px 12px;
+    color: rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.main-nav ul li a:after {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 58%;
+    height: 2px;
+    background: #66D37E;
+    margin: 0 auto;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translate3d(0, -10px, 0);
+  }
+.main-nav ul li a:hover {
+    color: #000;
+}
+.main-nav ul li a:hover:after {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.main-nav ul li.active > a {
+    color: #000 !important;
+    position: relative;
+  }
+.main-nav ul li.active > a:after {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 58%;
+    height: 2px;
+    background: #66D37E;
+    margin: 0 auto;
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translate3d(0, 0px, 0);
+}
