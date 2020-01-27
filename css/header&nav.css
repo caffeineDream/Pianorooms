@@ -7,10 +7,11 @@
     }
 }
 .main-nav .top-menu {
-padding: 34px 30px;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+    position: relative;
+    padding: 34px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
   .main-nav .top-menu {
@@ -62,7 +63,7 @@ flex-wrap: wrap;
     content: '';
     width: 58%;
     height: 2px;
-    background: #66D37E;
+    background: rgb(228,179,76);
     margin: 0 auto;
     opacity: 0;
     transition: transform 0.3s, opacity 0.3s;
@@ -87,9 +88,84 @@ flex-wrap: wrap;
     content: '';
     width: 58%;
     height: 2px;
-    background: #66D37E;
+    background: rgb(228,179,76);
     margin: 0 auto;
     opacity: 1;
     transition: transform 0.3s, opacity 0.3s;
     transform: translate3d(0, 0px, 0);
+}
+/* Mobile menu sandwich */
+#nav-sandwich {
+    display: none;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5px;
+    right: 5px;
+    transition-duration: 0.5s;
+}
+@media screen and (max-width: 768px) {
+    #nav-sandwich {
+        display: flex;
+    }
+    .top-menu ul {
+        display: none;
+    }
+    .top-menu ul.open {
+        display: flex;
+        flex-direction: column;
+    }
+}
+#nav-sandwich .baseline {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    top: 30px;
+    left: 15px;
+    background-color: black;
+    transition-duration: 0.25s;
+}
+#nav-sandwich .baseline:before,
+#nav-sandwich .baseline:after {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  transition-duration: 0.25s;
+}
+#nav-sandwich .baseline:before {
+    top: -7px;
+    left: 0;
+}
+#nav-sandwich .baseline:after {
+    top: 7px;
+    left: 0;
+}
+#nav-sandwich:hover {
+    cursor: pointer;
+}
+#nav-sandwich:hover .baseline:before {
+    top: -10px;
+}
+#nav-sandwich:hover .baseline:after {
+    top: 10px;
+}
+#nav-sandwich.open {
+    transition-duration: 1s;
+    transform: rotate(180deg);
+}
+#nav-sandwich.open .baseline {
+    transition-duration: 0.5s;
+    background-color: transparent;
+}
+#nav-sandwich.open .baseline:before {
+    transition-duration: 0.5s;
+    top: 0;
+    transform: rotate(45deg);
+}
+#nav-sandwich.open .baseline:after {
+    transition-duration: 0.5s;
+    top: 0;
+    transform: rotate(-45deg);
 }

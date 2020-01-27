@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 a {
-  color: #66D37E;
+  color: rgb(228,179,76);
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
