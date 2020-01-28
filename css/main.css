@@ -52,6 +52,7 @@ a:hover, a:active, a:focus {
   padding: 34px 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
@@ -59,13 +60,24 @@ a:hover, a:active, a:focus {
   padding: 15px 1em;
 }
 }
-.main-nav #main-logo {
+/* .main-nav #main-logo {
   font-size: 24px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Source Sans Pro", sans-serif;
+} */
+#main-logo {
+  max-width: 10%;
+  height: auto;
+  margin: 0;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  #main-logo {
+    max-width: 15%;
+  }
 }
 .main-nav #main-logo a:hover {
   color: #000;
@@ -141,7 +153,7 @@ a:hover, a:active, a:focus {
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 5px;
+  top: 10px;
   right: 5px;
   transition-duration: 0.5s;
 }
