@@ -46,31 +46,56 @@
             <div class='content-gallery'>
                 <button class='tab-button button-active' value='brusovContent' disabled>Брюсов</button>
                 <button class='tab-button' value='povarContent'>Поварская</button>
-
-                <!-- BRUSOV CONTENT -->
                 <div id='brusovContent' class='gallery-wrapper'>
+                    <!-- Mobile buttons -->
+                    <div class="arrow-button arrow-brusov arrow-left"></div>
+                    <div class="arrow-button arrow-brusov arrow-right"></div>
+                    <!-- Desktop buttons -->
+                    <div class='button-holder'>
+                        <button class='gallery-button-brusov current-button' value='zalCardBrusov' disabled>Зал</button>
+                        <button class='gallery-button-brusov' value='0CardBrusov'>0</button>
+                        <button class='gallery-button-brusov' value='1CardBrusov'>I</button>
+                        <button class='gallery-button-brusov' value='2CardBrusov'>II</button>
+                        <button class='gallery-button-brusov' value='3CardBrusov'>III</button>
+                        <button class='gallery-button-brusov' value='4CardBrusov'>IV</button>
+                        <button class='gallery-button-brusov' value='5CardBrusov'>V</button>
+                        <button class='gallery-button-brusov' value='6CardBrusov'>VI</button>
+                        <button class='gallery-button-brusov' value='7CardBrusov'>VII</button>
+                    </div>
+                    <div class="button-holder">
+                        <button class='gallery-button-brusov' value='8CardBrusov'>VIII</button>
+                        <button class='gallery-button-brusov' value='9CardBrusov'>IX</button>
+                        <button class='gallery-button-brusov' value='10CardBrusov'>X</button>
+                        <button class='gallery-button-brusov' value='11CardBrusov'>XI</button>
+                        <button class='gallery-button-brusov' value='12CardBrusov'>XII</button>
+                        <button class='gallery-button-brusov' value='steelCardBrusov'>Стальной</button>
+                        <button class='gallery-button-brusov' value='emeraldCardBrusov'>Изумрудный</button>
+                        <button class='gallery-button-brusov' value='welcomeCardBrusov'>Отдых</button>
+
+                    </div>
                     <div class='gallery-card display-flex' id='zalCardBrusov'>
-                        <img src='img/gallery/brusov/zal.jpg' alt='Зал'>
+                        <!-- <div class="arrow arrow-left"></div>
+                        <div class="arrow arrow-right"></div> -->
+                        <h2>Зал</h2>
                         <div class='card-dscr'>
-                            <h2>Зал</h2>
+                            <img src='img/gallery/brusov/zal.jpg' alt='Зал'>
                             <p>
                                 Камерный зал c двумя окнами и дверью из стеклопакета, роялем "August Forster", регулируемой банкеткой для пианиста и дополнительными табуретками и стульями (35 штук).
-                                Подходит для проведения концертов, семинаров, мастер-классов (посадка до 40 человек), индивидуальных, групповых занятий и репетиций ансамблей.
                             </p>
                             <p>
-                                В помещении есть кондиционер, розетки, флипчарт для презентаций, большой ТВ, вместительная вешкалка для верхней одежды и просторные подоконники для личных вещей и сумок.
+                                В помещении есть кондиционер, розетки, флипчарт для презентаций, большой ТВ, вешкалка для верхней одежды и подоконники для личных вещей и сумок.
                             </p>
                             <p>
-                                Всё, что нужно для сосредоточения и продуктивной работы.<br>    
+                                Подходит для проведения концертов, семинаров, мастер-классов (посадка до 40 человек) и репетиций ансамблей.<br>    
                                 Вместимость: до 40 человек.
                             </p>
                             <h3>Цена: 350 – 900 ₽/час</h3> 
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='0CardBrusov'>
-                        <img src='img/gallery/brusov/0.jpg' alt='Комната 0'>
+                        <h2>Класс 0</h2>
                         <div class='card-dscr'>
-                            <h2>Класс 0</h2>
+                            <img src='img/gallery/brusov/0.jpg' alt='Комната 0'>
                             <p>
                                 Небольшой класс с фортепиано "Заря" и с акустической отделкой.
                                 В помещении также есть вентилятор и розетка. 
@@ -87,9 +112,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='1CardBrusov'>
-                        <img src='img/gallery/brusov/1.jpg' alt='Комната 1'>
+                        <h2>Класс I</h2>
                         <div class='card-dscr'>
-                            <h2>Класс I</h2>
+                            <img src='img/gallery/brusov/1.jpg' alt='Комната 1'> 
                             <p>
                                 Класс c инструментом "Лирика", акустической отделкой, удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -102,9 +127,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='2CardBrusov'>
-                        <img src='img/gallery/brusov/2.jpg' alt='Комната 2'>
+                        <h2>Класс II</h2>
                         <div class='card-dscr'>
-                            <h2>Класс II</h2>
+                            <img src='img/gallery/brusov/2.jpg' alt='Комната 2'>
                             <p>
                                 Класс с инструментом "Заря", акустической отделкой, удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -117,9 +142,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='3CardBrusov'>
-                        <img src='img/gallery/brusov/3.jpg' alt='Комната 3'>
+                        <h2>Класс III</h2>
                         <div class='card-dscr'>
-                            <h2>Класс III</h2>
+                            <img src='img/gallery/brusov/3.jpg' alt='Комната 3'>
                             <p>
                                 Класс с инструментом "Заря", акустической отделкой, удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -132,9 +157,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='4CardBrusov'>
-                        <img src='img/gallery/brusov/4.jpg' alt='Комната 4'>
+                        <h2>Класс IV</h2>
                         <div class='card-dscr'>
-                            <h2>Класс IV</h2>
+                            <img src='img/gallery/brusov/4.jpg' alt='Комната 4'>
                             <p>
                                 Класс с фортепиано "Hupfeld". В помещении есть вентиляция, розетка и дополнительная табуретка.
                             </p>
@@ -146,9 +171,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='5CardBrusov'>
-                        <img src='img/gallery/brusov/5.jpg' alt='Комната 5'>
+                        <h2>Класс V</h2>
                         <div class='card-dscr'>
-                            <h2>Класс V</h2>
+                            <img src='img/gallery/brusov/5.jpg' alt='Комната 5'>
                             <p>
                                 Класс с фортепиано "Symphony" с очень приятным и благородным звучанием, c удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -161,9 +186,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='6CardBrusov'>
-                        <img src='img/gallery/brusov/6.jpg' alt='Комната 6'>
+                        <h2>Класс VI</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VI</h2>
+                            <img src='img/gallery/brusov/6.jpg' alt='Комната 6'>
                             <p>
                                 Класс с фортепиано "Hupfeld". В помещении есть вентиляция, розетка и дополнительная табуретка.
                             </p>
@@ -175,9 +200,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='7CardBrusov'>
-                        <img src='img/gallery/brusov/7.jpg' alt='Комната 7'>
+                        <h2>Класс VII</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VII</h2>
+                            <img src='img/gallery/brusov/7.jpg' alt='Комната 7'>
                             <p>
                                 Элегантный класс с фортепиано "Petrof", кондиционером, удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -190,9 +215,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='8CardBrusov'>
-                        <img src='img/gallery/brusov/8.jpg' alt='Комната 8'>
+                        <h2>Класс VIII</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VIII</h2>
+                            <img src='img/gallery/brusov/8.jpg' alt='Комната 8'>
                             <p>
                                 Просторный и вместе с тем исключительно уютный класс с фортепиано "Petrof", кондиционером, акустической отделкой, удобной банкеткой для пианиста и дополнительными табуретками.
                                 В классе также есть большое зеркало для вокалистов и инструменталистов, розетка и крючок для личных вещей и сумок.
@@ -206,9 +231,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='9CardBrusov'>
-                        <img src='img/gallery/brusov/9.jpg' alt='Комната 9'>
+                        <h2>Класс IX</h2>
                         <div class='card-dscr'>
-                            <h2>Класс IX</h2>
+                            <img src='img/gallery/brusov/9.jpg' alt='Комната 9'>
                             <p>
                                 Просторный класс с инструментом "Petrof", акустической отделкой, удобными банкетками для пианистов и дополнительными табуретками.
                                 В помещении также есть розетка и крючок для личных вещей и сумок.
@@ -221,9 +246,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='10CardBrusov'>
-                        <img src='img/gallery/brusov/10.jpg' alt='Комната 10'>
+                        <h2>Класс X</h2>
                         <div class='card-dscr'>
-                            <h2>Класс X</h2>
+                            <img src='img/gallery/brusov/10.jpg' alt='Комната 10'>
                             <p>
                                 Класс с фортепиано "Nocturno" с очень приятным звучанием. В помещении также есть вентилятор, розетка идополнительная табуретка. Всё, что нужно для сосредоточения и продуктивной работы музыкантов.
                             </p>
@@ -235,9 +260,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='11CardBrusov'>
-                        <img src='img/gallery/brusov/11.jpg' alt='Комната 11'>
+                        <h2>Класс XI</h2>
                         <div class='card-dscr'>
-                            <h2>Класс XI</h2>
+                            <img src='img/gallery/brusov/11.jpg' alt='Комната 11'>
                             <p>
                                 Класс с фортепиано "Ronisch" с очень приятным и благородным звучанием, c удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть вентиляция и розетка.
@@ -250,9 +275,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='12CardBrusov'>
-                        <img src='img/gallery/brusov/12.jpg' alt='Комната 12'>
+                        <h2>Класс XII</h2>
                         <div class='card-dscr'>
-                            <h2>Класс XII</h2>
+                            <img src='img/gallery/brusov/12.jpg' alt='Комната 12'>
                             <p>
                                 Класс с экспортынм фортепиано Заря 2 с очень приятным и благородным звучанием, с удобной банкеткой для пианиста и дополнительной табуреткой.
                                 В помещении также есть вентиляция, розетка, тумба, вешалка для вещей и раковина.
@@ -265,9 +290,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='steelCardBrusov'>
-                        <img src='img/gallery/brusov/steel.jpg' alt='Комната Стальная'>
+                        <h2>Стальной класс</h2>
                         <div class='card-dscr'>
-                            <h2>Стальной класс</h2>
+                            <img src='img/gallery/brusov/steel.jpg' alt='Комната Стальная'>
                             <p>
                                 Класс с окном и дверью из стеклопакета, с двумя фортепиано: Экспортная Лирика и Nocturno.
                                 С удобными банкетками для пианистов и дополнительными табуретками и стульями.
@@ -282,9 +307,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='emeraldCardBrusov'>
-                        <img src='img/gallery/brusov/emerald.jpg' alt='Комната Изумрудный'>
+                        <h2>Изумрудный класс</h2>
                         <div class='card-dscr'>
-                            <h2>Изумрудный класс</h2>
+                            <img src='img/gallery/brusov/emerald.jpg' alt='Комната Изумрудный'>
                             <p>
                                 Класс с окном и дверью из стеклопакета, фортепиано "Petrof", удобной банкеткой для пианиста и дополнительными табуретками и стульями.
                                 В помещении есть розетки, тумба и просторный подоконник для личных вещей и сумок.
@@ -298,9 +323,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='welcomeCardBrusov'>
-                        <img src='img/gallery/brusov/welcome.jpg' alt='Комната отдыха'>
+                        <h2>Зона отдыха</h2>
                         <div class='card-dscr'>
-                            <h2>Зона отдыха</h2>
+                            <img src='img/gallery/brusov/welcome.jpg' alt='Комната отдыха'>
                             <p>
                                 Всё для Вашего удобства и комфорта. 
                                 Бесплатный Wi-Fi, чай, кофе и кулер с водой в зоне отдыха.
@@ -310,33 +335,39 @@
                         </div>
                     </div>
 
-                    <div class='button-holder'>
-                        <button class='gallery-button-brusov' value='zalCardBrusov' disabled>Зал</button>
-                        <button class='gallery-button-brusov' value='0CardBrusov'>0</button>
-                        <button class='gallery-button-brusov' value='1CardBrusov'>I</button>
-                        <button class='gallery-button-brusov' value='2CardBrusov'>II</button>
-                        <button class='gallery-button-brusov' value='3CardBrusov'>III</button>
-                        <button class='gallery-button-brusov' value='4CardBrusov'>IV</button>
-                        <button class='gallery-button-brusov' value='5CardBrusov'>V</button>
-                        <button class='gallery-button-brusov' value='6CardBrusov'>VI</button>
-                        <button class='gallery-button-brusov' value='7CardBrusov'>VII</button>
-                        <button class='gallery-button-brusov' value='8CardBrusov'>VIII</button>
-                        <button class='gallery-button-brusov' value='9CardBrusov'>IX</button>
-                        <button class='gallery-button-brusov' value='10CardBrusov'>X</button>
-                        <button class='gallery-button-brusov' value='11CardBrusov'>XI</button>
-                        <button class='gallery-button-brusov' value='12CardBrusov'>XII</button>
-                        <button class='gallery-button-brusov' value='steelCardBrusov'>Стальной</button>
-                        <button class='gallery-button-brusov' value='emeraldCardBrusov'>Изумрудный</button>
-                        <button class='gallery-button-brusov' value='welcomeCardBrusov'>Зона отдыха</button>
-                    </div>
+
                 </div>
-                <!-- BRUSOV CONTENT -->
-                <!-- POVAR CONTENT -->
                 <div id='povarContent' class='gallery-wrapper display-none'>
+                    <!-- Mobile buttons -->
+                    <div class="arrow-button arrow-povar arrow-left"></div>
+                    <div class="arrow-button arrow-povar arrow-right"></div>
+                    <!-- Desktop buttons -->
+                    <div class='button-holder'>
+                        <button class='gallery-button-povar current-button' value='zalCardPovar' disabled>Зал</button>
+                        <button class='gallery-button-povar' value='0CardPovar'>0</button>
+                        <button class='gallery-button-povar' value='2CardPovar'>II</button>
+                        <button class='gallery-button-povar' value='3CardPovar'>III</button>
+                        <button class='gallery-button-povar' value='4CardPovar'>IV</button>
+                        <button class='gallery-button-povar' value='5CardPovar'>V</button>
+                        <button class='gallery-button-povar' value='6CardPovar'>VI</button>
+                        <button class='gallery-button-povar' value='7CardPovar'>VII</button>
+                        <button class='gallery-button-povar' value='8CardPovar'>VII</button>
+                        <button class='gallery-button-povar' value='9CardPovar'>IX</button>
+                    </div>
+                    <div class="button-holder">
+                        <button class='gallery-button-povar' value='10CardPovar'>X</button>
+                        <button class='gallery-button-povar' value='redCardPovar'>Красный</button>
+                        <button class='gallery-button-povar' value='greenCardPovar'>Зеленый</button>
+                        <button class='gallery-button-povar' value='whiteCardPovar'>Белый</button>
+                        <button class='gallery-button-povar' value='almazCardPovar'>Алмаз</button>
+                        <button class='gallery-button-povar' value='ametistCardPovar'>Аметист</button>
+                        <button class='gallery-button-povar' value='rubyCardPovar'>Рубин</button>
+                        <button class='gallery-button-povar' value='teaCardPovar'>Отдых</button>
+                    </div>
                     <div class='gallery-card display-flex' id='zalCardPovar'>
-                        <img src='img/gallery/povar/zal.jpg' alt='Зал'>
+                        <h2>Большой камерный зал</h2>
                         <div class='card-dscr'>
-                            <h2>Большой камерный зал</h2>
+                            <img src='img/gallery/povar/zal.jpg' alt='Зал'>
                             <p>
                                 Вместительный, просторный, большой камерный зал в стиле современной классики. 
                                 Мощная вентиляция, хорошая акустика. 4 окна.2 рояля Ronisch. 
@@ -348,9 +379,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='0CardPovar'>
-                        <img src='img/gallery/povar/0.jpg' alt='Комната 0'>
+                        <h2>Класс 0</h2>
                         <div class='card-dscr'>
-                            <h2>Класс 0</h2>
+                            <img src='img/gallery/povar/0.jpg' alt='Комната 0'>
                             <p>
                                 Небольшой класс с пианино Лирика, хорошей вентиляцией и полукруглой стеной.
                             </p>
@@ -361,9 +392,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='2CardPovar'>
-                        <img src='img/gallery/povar/2.jpg' alt='Комната 2'>
+                        <h2>Класс II</h2>
                         <div class='card-dscr'>
-                            <h2>Класс II</h2>
+                            <img src='img/gallery/povar/2.jpg' alt='Комната 2'>
                             <p>
                                 Небольшой класс с пианино Лирика и хорошей вентиляцией.
                             </p>
@@ -374,9 +405,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='3CardPovar'>
-                        <img src='img/gallery/povar/3.jpg' alt='Комната 3'>
+                        <h2>Класс III</h2>
                         <div class='card-dscr'>
-                            <h2>Класс III</h2>
+                            <img src='img/gallery/povar/3.jpg' alt='Комната 3'>
                             <p>
                                 Небольшой класс с пианино Лирика и хорошей вентиляцией.
                             </p>
@@ -387,9 +418,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='4CardPovar'>
-                        <img src='img/gallery/povar/4.jpg' alt='Комната 4'>
+                        <h2>Класс IV</h2>
                         <div class='card-dscr'>
-                            <h2>Класс IV</h2>
+                            <img src='img/gallery/povar/4.jpg' alt='Комната 4'>
                             <p>
                                 Небольшой класс с пианино Заря и хорошей вентиляцией. 
                             </p>
@@ -400,9 +431,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='5CardPovar'>
-                        <img src='img/gallery/povar/5.jpg' alt='Комната 5'>
+                        <h2>Класс V</h2>
                         <div class='card-dscr'>
-                            <h2>Класс V</h2>
+                            <img src='img/gallery/povar/5.jpg' alt='Комната 5'>
                             <p>
                                 Небольшой класс с пианино Geyer и хорошей вентиляцией. 
                             </p>
@@ -413,9 +444,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='6CardPovar'>
-                        <img src='img/gallery/povar/6.jpg' alt='Комната 6'>
+                        <h2>Класс VI</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VI</h2>
+                            <img src='img/gallery/povar/6.jpg' alt='Комната 6'>
                             <p>
                                 Небольшой класс с пианино PETROF и хорошей вентиляцией.
                             </p>
@@ -426,9 +457,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='7CardPovar'>
-                        <img src='img/gallery/povar/7.jpg' alt='Комната 7'>
+                        <h2>Класс VII</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VII</h2>
+                            <img src='img/gallery/povar/7.jpg' alt='Комната 7'>
                             <p>
                                 Небольшой класс с пианино Zimmerman и хорошей вентиляцией.
                             </p>
@@ -439,9 +470,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='8CardPovar'>
-                        <img src='img/gallery/povar/8.jpg' alt='Комната 8'>
+                        <h2>Класс VIII</h2>
                         <div class='card-dscr'>
-                            <h2>Класс VIII</h2>
+                            <img src='img/gallery/povar/8.jpg' alt='Комната 8'>
                             <p>
                                 Просторный класс с пианино PETROF и хорошей вентиляцией.
                             </p>
@@ -452,9 +483,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='9CardPovar'>
-                        <img src='img/gallery/povar/9.jpg' alt='Комната 9'>
+                        <h2>Класс IX</h2>
                         <div class='card-dscr'>
-                            <h2>Класс IX</h2>
+                            <img src='img/gallery/povar/9.jpg' alt='Комната 9'>
                             <p>
                                 Комфортный класс квадратной формы с пианино Лирика и мощной вентиляцией.
                             </p>
@@ -465,9 +496,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='10CardPovar'>
-                        <img src='img/gallery/povar/10.jpg' alt='Комната 10'>
+                        <h2>Класс X</h2>
                         <div class='card-dscr'>
-                            <h2>Класс X</h2>
+                            <img src='img/gallery/povar/10.jpg' alt='Комната 10'>
                             <p>
                                 Комфортный класс квадратной формы с Пианино PETROF и мощной вентиляцией.
                                  Подходит для индивидуальных и групп небольшого размера.
@@ -476,9 +507,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='11CardPovar'>
-                        <img src='img/gallery/povar/11.jpg' alt='Комната 11'>
+                        <h2>Класс XI</h2>
                         <div class='card-dscr'>
-                            <h2>Класс XI</h2>
+                            <img src='img/gallery/povar/11.jpg' alt='Комната 11'>
                             <p>
                                 Комфортный класс квадратной формы с пианино PETROF и мощной вентиляцией.
                             </p>
@@ -489,9 +520,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='redCardPovar'>
-                        <img src='img/gallery/povar/red.jpg' alt='Комната Красная'>
+                        <h2>Красный класс</h2>
                         <div class='card-dscr'>
-                            <h2>Красный класс</h2>
+                            <img src='img/gallery/povar/red.jpg' alt='Комната Красная'>
                             <p>
                                 Просторный класс с двумя пианино Лирика, мощной вентиляцией и окном. 
                             </p>
@@ -502,9 +533,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='greenCardPovar'>
-                        <img src='img/gallery/povar/green.jpg' alt='Комната Зеленая'>
+                        <h2>Зеленый класс</h2>
                         <div class='card-dscr'>
-                            <h2>Зеленый класс</h2>
+                            <img src='img/gallery/povar/green.jpg' alt='Комната Зеленая'>
                             <p>
                                 Просторный класс с двумя пианино Лирика, мощной вентиляцией и окном.
                             </p>
@@ -515,9 +546,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='whiteCardPovar'>
-                        <img src='img/gallery/povar/white.jpg' alt='Комната Белая'>
+                        <h2>Белый зал</h2>
                         <div class='card-dscr'>
-                            <h2>Белый зал</h2>
+                            <img src='img/gallery/povar/white.jpg' alt='Комната Белая'>
                             <p>
                                 Вместительный, просторный камерный зал белого цвета в стиле лофт с роялем Красный Октябрь. 
                                 Мощная вентиляция и хорошая акустика, два окна.
@@ -526,9 +557,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='almazCardPovar'>
-                        <img src='img/gallery/povar/almaz.jpg' alt='Комната Алмаз'>
+                        <h2>Алмаз</h2>
                         <div class='card-dscr'>
-                            <h2>Алмаз</h2>
+                            <img src='img/gallery/povar/almaz.jpg' alt='Комната Алмаз'>
                             <p>
                                 Комфортный класс с пианино PETROF, мощной вентиляцией и кожаным диваном.
                                 Сводчатый потолок, звонкая акустика.
@@ -540,9 +571,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='ametistCardPovar'>
-                        <img src='img/gallery/povar/ametist.jpg' alt='Комната Аметист'>
+                        <h2>Аметист</h2>
                         <div class='card-dscr'>
-                            <h2>Аметист</h2>
+                            <img src='img/gallery/povar/ametist.jpg' alt='Комната Аметист'>
                             <p>
                                 Комфортный класс с пианино PETROF.
                                 Сводчатый потолок, звонкая акустика и мощная вентиляция.
@@ -554,9 +585,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='rubyCardPovar'>
-                        <img src='img/gallery/povar/ruby.jpg' alt='Комната Рубин'>
+                        <h2>Рубин</h2>
                         <div class='card-dscr'>
-                            <h2>Рубин</h2>
+                            <img src='img/gallery/povar/ruby.jpg' alt='Комната Рубин'>
                             <p>
                                 Комфортный класс с пианино PETROF.
                                 Сводчатый потолок, звонкая акустика и мощная вентиляция.
@@ -568,9 +599,9 @@
                         </div>
                     </div>
                     <div class='gallery-card display-none' id='teaCardPovar'>
-                        <img src='img/gallery/povar/tea.jpg' alt='Общие зоны'>
+                        <h2>Зона отдыха</h2>
                         <div class='card-dscr'>
-                            <h2>Зона отдыха</h2>
+                            <img src='img/gallery/povar/tea.jpg' alt='Общие зоны'>
                             <p>
                                 Всё для Вашего удобства и комфорта.
                                 Бесплатный Wi-Fi, чай, кофе и кулер с водой в зоне отдыха.
@@ -579,30 +610,7 @@
                             <h3></h3> 
                         </div>
                     </div>
-
-                    <div class='button-holder'>
-                        <button class='gallery-button-povar' value='zalCardPovar' disabled>Зал</button>
-                        <button class='gallery-button-povar' value='0CardPovar'>0</button>
-                        <button class='gallery-button-povar' value='2CardPovar'>II</button>
-                        <button class='gallery-button-povar' value='3CardPovar'>III</button>
-                        <button class='gallery-button-povar' value='4CardPovar'>IV</button>
-                        <button class='gallery-button-povar' value='5CardPovar'>V</button>
-                        <button class='gallery-button-povar' value='6CardPovar'>VI</button>
-                        <button class='gallery-button-povar' value='7CardPovar'>VII</button>
-                        <button class='gallery-button-povar' value='8CardPovar'>VII</button>
-                        <button class='gallery-button-povar' value='9CardPovar'>IX</button>
-                        <button class='gallery-button-povar' value='10CardPovar'>X</button>
-                        <button class='gallery-button-povar' value='redCardPovar'>Красный</button>
-                        <button class='gallery-button-povar' value='greenCardPovar'>Зеленый</button>
-                        <button class='gallery-button-povar' value='whiteCardPovar'>Белый</button>
-                        <button class='gallery-button-povar' value='almazCardPovar'>Алмаз</button>
-                        <button class='gallery-button-povar' value='ametistCardPovar'>Аметист</button>
-                        <button class='gallery-button-povar' value='rubyCardPovar'>Рубин</button>
-                        <button class='gallery-button-povar' value='teaCardPovar'>Зона отдыха</button>
-                    </div>
                 </div>
-                <!-- POVAR CONTENT -->
-
             </div>
         </div>
         <div class='container-wrap'>
