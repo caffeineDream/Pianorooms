@@ -119,13 +119,10 @@
 }
 .arrow-left {
     left: 0px;
-    background: salmon;
     opacity: 0.5;
 }
 .arrow-right {
     right: 0px;
-
-    background: greenyellow;
     opacity: 0.5;
 }
 @media screen and (max-width: 768px) {
