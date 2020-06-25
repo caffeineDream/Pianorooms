@@ -1,3 +1,3 @@
-Hello, i'm pianorooms template
+## Commercial website for tutoring classes
 
-test
+Plain Javascript, static website with online booking software integration.
